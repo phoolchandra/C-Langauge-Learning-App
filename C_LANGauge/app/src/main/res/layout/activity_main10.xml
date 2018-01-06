@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phoolchandra_kevin.c_lang.Main10Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Recursion"
+            android:id="@+id/button"
+            android:onClick="changeActivity"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:textColor="#9ACD32"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="20sp"
+            android:text="\nRecursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to call a function inside the same function, then it is called a recursive call of the function.\nn
+void recursion() {\n
+   recursion(); /* function calls itself */\n
+}\n
+
+int main() {\n
+   recursion();\n
+}\nThe C programming language supports recursion, i.e., a function to call itself. But while using recursion, programmers need to be careful to define an exit condition from the function, otherwise it will go into an infinite loop.\n\n
+Recursive functions are very useful to solve many mathematical problems, such as calculating the factorial of a number, generating Fibonacci series, etc."
+            tools:ignore="HardcodedText" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/recur" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#00008B"
+            android:text="link for further study:-\nhttps://www.tutorialspoint.com/cprogramming/c_recursion.htm"
+            android:autoLink="all"
+            android:clickable="true"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phoolchandra_kevin.c_lang.Main11Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#9ACD32"
+            android:text=" DECISION MAKING "
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:text="\n Decision making structures require that the programmer specifies one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.\n\n
+C programming language provides the following types of decision making statements.\n\n
+(1) if statement \nAn if statement consists of a boolean expression followed by one or more statements.\n\n
+(2) if else statement\n An if statement can be followed by an optional else statement, which executes when the Boolean expression is false.\n\n
+(3) Nested if statement \nYou can use one if or else if statement inside another if or else if statement(s).\n\n
+(4) Switch statement \nA switch statement allows a variable to be tested for equality against a list of values.\n\n
+(5) Nested switch statement\n You can use one switch statement inside another switch statement(s).\n\n"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/evenc" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/elseifc" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/startb" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="link for further study:-\nhttp://www.geeksforgeeks.org/execute-else-statements-cc-simultaneously/"
+            android:textColor="#00008B"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="http://www.geeksforgeeks.org/interesting-facts-about-switch-statement-in-c/"
+            android:textColor="#00008B"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</ScrollView>

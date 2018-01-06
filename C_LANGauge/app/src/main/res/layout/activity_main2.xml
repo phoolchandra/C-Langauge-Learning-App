@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phoolchandra_kevin.c_lang.Main2Activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#9ACD32"
+            android:text=" BASIC SYNTAX "
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:text="\N\NYou have seen the basic structure of a C program, so it will be easy to understand other basic building blocks of the C programming language.\n\n\n
+Tokens in C:-\n\n\n
+A C program consists of various tokens and a token is either a keyword, an identifier, a constant, a string literal, or a symbol. For example, the following C statement consists of folowing  tokens −\n\n
+Semicolons:-\n\n
+Comments are like helping text in your C program and they are ignored by the compiler. They start with /* and terminate with the characters */ as shown below −\n\n
+/* my first program in C */\n\n
+You cannot have comments within comments and they do not occur within a string or character literals.\n\n
+Identifiers:-\n\n
+A C identifier is a name used to identify a variable, function, or any other user-defined item. An identifier starts with a letter A to Z, a to z, or an underscore '_' followed by zero or more letters, underscores, and digits (0 to 9).
+
+C does not allow punctuation characters such as @, $, and % within identifiers. C is a case-sensitive programming language. Thus, Manpower and manpower are two different identifiers in C. Here are some examples of acceptable identifiers −\n\n
+Whitespace in C:-\n\n
+A line containing only whitespace, possibly with a comment, is known as a blank line, and a C compiler totally ignores it.\n\n
+Whitespace is the term used in C to describe blanks, tabs, newline characters and comments. Whitespace separates one part of a statement from another and enables the compiler to identify where one element in a statement, such as int, ends and the next element begins. Therefore, in the following statement −
+
+int age;
+there must be at least one whitespace character (usually a space) between int and age for the compiler to be able to distinguish them. On the other hand, in the following statement −
+
+\nfruit = apples + oranges;   // get the total fruit\n\n
+no whitespace characters are necessary between fruit and =, or between = and apples, although you are free to include some if you wish to increase readability.\n\n
+"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</ScrollView>

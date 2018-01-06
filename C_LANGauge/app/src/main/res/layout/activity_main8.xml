@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phoolchandra_kevin.c_lang.Main8Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#9ACD32"
+            android:text=" STRING "
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:text="Strings are actually one-dimensional array of characters terminated by a null character '\0'. Thus a null-terminated string contains the characters that comprise the string followed by a null.\n\n
+ The following declaration and initialization create a string consisting of the word 'hello'. To hold the null character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word 'hello'\n\nchar greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};\n\n
+
+ There is no string data type in C. What we call a string in C is really an array of characters terminated by a null ‘\0‘ character. When you initialize a string variable, as shown below, C automatically adds a null at the end:\n\n
+char mystr[] = inside double code (hello);​"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fuctstr" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="link for further study:-\n http://www.geeksforgeeks.org/strings-in-c-2/"
+            android:textColor="#00008B"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+</ScrollView>

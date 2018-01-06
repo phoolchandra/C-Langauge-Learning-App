@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phoolchandra_kevin.c_lang.Main5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#9ACD32"
+            android:text=" Loops "
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:text=" You may encounter situations, when a block of code needs to be executed several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.\n\n
+Programming languages provide various control structures that allow for more complicated execution paths.\n\n
+C programming language provides the following types of loops to handle looping requirements.\n\n
+(1) while loop \nRepeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body.\n\n
+(2) for loop \nExecutes a sequence of statements multiple times and abbreviates the code that manages the loop variable.\n\n
+(3) do while loop\nIt is more like a while statement, except that it tests the condition at the end of the loop body.\n\n
+             "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/forrc" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:text=" \n"
+            android:textColor="#9ACD32"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/whilccoun" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="link for further study:-\n https://www.tutorialspoint.com/cprogramming/c_loops.htm"
+            android:textColor="#00008B"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

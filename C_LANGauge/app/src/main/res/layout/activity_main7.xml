@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phoolchandra_kevin.c_lang.Main7Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#9ACD32"
+            android:text=" ARRAY"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:text="An array is a linear collection of elements of a specified data type. Each element has an index. The first element is at index 0. The last element is at the index given by the length of the array (that is, the number of elements) minus 1. An array can be declared with its type followed by its capacity between square brackets. This is a declaration of an array containing 5 integers:\n\n
+int intarray[5];​\n\n
+You can index into an array using square brackets to obtain an existing element or assign a new value at a specified index. Here I assign 100 to index 2 of my array:\n\n
+intarray[2] = 100;​\n\nAn array can be initialized when it is declared by placing empty square brackets after the variable name and then assigning a comma-delimited list of values between curly brackets, as in this example:\n\n
+int intarray[] = {1,2,3,4,5};​"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="link for further study:-\n http://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/"
+            android:textColor="#00008B"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/arrayss" />
+    </LinearLayout>
+
+</ScrollView>
